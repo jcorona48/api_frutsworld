@@ -1,5 +1,6 @@
 
 
+
 export const getProductos = (resq, res) => res.send('opteniendo productos')
 
 export const createProductos = (resq, res) => res.send('Creado productos')
