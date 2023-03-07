@@ -1,15 +1,3 @@
-<<<<<<< Updated upstream
-
-
-
-export const getProductos = (resq, res) => res.send('opteniendo productos')
-
-export const createProductos = (resq, res) => res.send('Creado productos')
-
-export const updateProductos = (resq, res) => res.send('actualizadno productos')
-
-export const deleteProductos = (resq, res) => res.send('eliminando productos')
-=======
 import { pool } from '../db.js'
 
 export const getProductos = async (req, res) => {
@@ -77,4 +65,4 @@ export const updateProductos = async (req, res) => {
         return res.status(500).json({ message: 'Something goes wrong' })
     }
 }
->>>>>>> Stashed changes
+
