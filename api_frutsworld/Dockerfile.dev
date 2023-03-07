@@ -5,6 +5,5 @@ RUN npm install -g nodemon
 RUN npm install
 RUN npm install express
 RUN npm install mysql2
-RUN npm install dotenv
 COPY . .
 CMD ["npm", "run", "dev"]
