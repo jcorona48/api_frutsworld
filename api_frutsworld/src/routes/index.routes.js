@@ -7,4 +7,9 @@ const router = Router()
 
 router.get('/ping', ping )
 
+<<<<<<< Updated upstream
 export default router
+=======
+
+export default router
+>>>>>>> Stashed changes
